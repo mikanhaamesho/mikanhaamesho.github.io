@@ -166,3 +166,21 @@ h4 {
 	font-size: 14px;
 }
 }
+.photo-set {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin: 1.5em 0;
+}
+
+.photo-set img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.photo-set figcaption {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 0.4em;
+}
